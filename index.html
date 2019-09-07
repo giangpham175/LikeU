@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="description" content="">
+    <meta name="author" content="GP">
+    <meta name="copyright" content="">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:title" content="Say I Like You">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://i.imgur.com/rDsnA66.jpg">
+    <meta property="og:site_name" content="Say I Like You">
+    <meta property="og:locale" content="vi_VN">
+    <meta property="fb:admins" content="">
+    <meta property="fb:app_id" content="">
+
+    <title>Say I Like You</title>
+
+    <link rel="author" href="">
+    <link rel="publisher" href="">
+    <link rel="canonical" href="">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/2.3.5/mini-dark.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700&amp;subset=vietnamese">
+    <link rel="stylesheet" href="css/gp.css">
+    <link rel="stylesheet" href="css/vegas.min.css">
+
+    <script>
+      /* EDIT HERE */
+      var CONFIG = {
+        background: 'https://i.imgur.com/rDsnA66.jpg',
+        content: [{
+          text: ' – Chào em! Anh là heodat...\n chắc em cũng biết rồi mà nhỉ... ^.^\n',
+          delay: 2000
+        }, {
+          text: ' – Em có thấy con nhỏ ngố tàu ở hình không...?\n ',
+          delay: 1500
+        }, {
+          text: ' Anh đang muốn nói với nó một điều, cơ mà cũng \n... mmmm ...\n ',
+          delay: 1500
+        }, {
+          text: ' Ngại... ',
+          delay: 1500
+        }, {
+          text: ' tại anh trước giờ chưa nói thế này với ai\n ',
+          delay: 1500
+        }, {
+          text: ' – Nên... nhờ em chuyển lời lại cho nó giúp anh nhá ...\n ',
+          delay: 1500
+        }, {
+          text: ' - Ờ thì là...',
+          delay: 1500
+        }, {
+          text: ' anh thích nó....\n ',
+          delay: 1500
+        }, {
+          text: ' và anh sẽ bắt nó về nuôi đấy :3\n',
+          delay: 700
+        }],
+        alert: {
+          troll: true, // Chỉ cho nhấn Đồng ý
+          success: {
+            title: 'Woo hooo! ^_^',
+            message: 'Cảm ơn em nhá... đồ ngố...'
+          },
+          error: {
+            title: '',
+            message: ''
+          }
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 row">
+          <p id="txt"></p>
+        </div>
+      </div>
+      <div class="col-sm col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-5 row">
+        <div id="buttons" style="display: none;">
+          <button type="button" class="primary large" id="btn-yes">Em nói cho nó biết liền</button>
+          <button type="button" class="large" id="btn-no">Xem như chưa thấy</button>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert@2.0.8/dist/sweetalert.min.js"></script>
+    <script src="js/gp.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45794712-25"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-45794712-25');
+    </script>
+
+    <!-- BACKGROUND MUSIC -->
+    <iframe src="lalala.mp3" width="1" height="1" frameborder="0" allowfullscreen></iframe>
+  </body>
+</html>
